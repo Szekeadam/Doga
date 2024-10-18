@@ -62,16 +62,16 @@ function gradeCalculator(score, maximum) {
     if (szazalek >= 90) {
         return 'A';
     } 
-    else if (szazalek >= 80) {
+    else if (szazalek >= 80 && szazalek <= 90) {
         return 'B';
     } 
-    else if (szazalek >= 70) {
+    else if (szazalek >= 70 && szazalek <= 80) {
         return 'C';
     } 
-    else if (szazalek >= 60) {
+    else if (szazalek >= 60&& szazalek <= 70) {
         return 'D';
     } 
-    else if (szazalek >= 50) {
+    else if (szazalek >= 50 && szazalek <= 60) {
         return 'E';
     } 
     else {
